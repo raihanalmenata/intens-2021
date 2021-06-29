@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <Row>
             <Col span={12}>
-                <h1>Enhancing <br/> Digital <br/> Transformation </h1>
+                <h1> Enhancing <br/> Digital <br/> Transformation </h1>
                 <p>
                     We are here to provide support for customers in digital transformation through effective implementation of information technology.
                 </p>
