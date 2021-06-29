@@ -1,0 +1,18 @@
+header {
+    background-color: #F7F7F7;
+    height: 80px;
+}
+
+.container {
+    margin: 0 621px 0 360px;
+    line-height: 80px;
+}
+
+li {
+    display: inline;
+    margin-left: 87px;
+}
+
+a {
+    color: black;
+}
