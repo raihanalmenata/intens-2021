@@ -1,9 +1,8 @@
 import React from "react";
-import { Card, Row, Col } from "antd";
+import { Row, Col } from "antd";
+import Value from "./component/Value";
 
-import "./Values.css";
-
-const { Meta } = Card;
+import "./Values.less";
 
 const Values = () => {
     return (
@@ -21,35 +20,15 @@ const Values = () => {
                 </div>
                 <Row>
                     <Col span={8}>
-                        <Card
-                            className="card-item"
-                        >
-                            <Meta
-                                title="Service 1"
-                                description="Any Description Related to the service ..."
-                            ></Meta>
-                        </Card>
+                        <Value />
                     </Col>
                     <Col span={8}>
-                        <Card
-                            className="card-item"
-                        >
-                            <Meta
-                                title="Service 1"
-                                description="Any Description Related to the service ..."
-                            ></Meta>
-                        </Card>
+                        <Value />
                     </Col>
                     <Col span={8}>
-                        <Card
-                            className="card-item"
-                        >
-                            <Meta
-                               title="Service 1"
-                               description="Any Description Related to the service ..."
-                            ></Meta>
-                        </Card>
+                        <Value />
                     </Col>
+                   
                 </Row>
             </div>
         </div >

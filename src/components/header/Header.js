@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
-import "./Header.css";
+import "./Header.less";
 
 const Header = () => {
     return (
@@ -8,11 +8,11 @@ const Header = () => {
             <div className="container">
                 <div className="navbar">
                     <Logo />
-                    <ul>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Contacts</a></li>
-                        <li><a href="#">About</a></li>
-                    </ul>
+                    <ul type="square">
+                        <li>Products</li>
+                        <li>Contact</li>
+                        <li>About</li>
+                    </ul    >
                 </div>
             </div>
         </header>

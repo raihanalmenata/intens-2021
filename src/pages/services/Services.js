@@ -1,12 +1,8 @@
 import React from "react";
-import { Card, Row, Col } from "antd";
-import vektor from "../../assets/img/Vector.png";
+import { Row, Col } from "antd";
+import Service from "./component/Service";
 
-import "./Services.css";
-
-
-
-const { Meta } = Card;
+import "./Services.less";
 
 const Services = () => {
     return (
@@ -24,71 +20,16 @@ const Services = () => {
                 </div>
                 <Row>
                     <Col span={12}>
-                        <Card
-                            className="card-item"
-                            cover={
-                                <img
-                                    alt="example"
-                                    src={vektor}
-                                />
-                            }
-                        >
-                            <Meta
-                                title="Service 1"
-                                description="Any Description Related to the service ..."
-                            ></Meta>
-                        </Card>
+                        <Service />
                     </Col>
                     <Col span={12}>
-                        <Card
-                            className="card-item"
-                            cover={
-                                <img
-                                    alt="example"
-                                    src={vektor}
-                                    style={{ width: "100px" }}
-                                />
-                            }
-                        >
-                            <Meta
-                                title="Service 1"
-                                description="Any Description Related to the service ..."
-                            ></Meta>
-                        </Card>
+                        <Service />
                     </Col>
                     <Col span={12}>
-                        <Card
-                            className="card-item"
-                            cover={
-                                <img
-                                    alt="example"
-                                    src={vektor}
-                                    style={{ width: "100px" }}
-                                />
-                            }
-                        >
-                            <Meta
-                               title="Service 1"
-                               description="Any Description Related to the service ..."
-                            ></Meta>
-                        </Card>
+                        <Service />
                     </Col>
                     <Col span={12}>
-                        <Card
-                            className="card-item"
-                            cover={
-                                <img
-                                    alt="example"
-                                    src={vektor}
-                                    style={{ width: "100px" }}
-                                />
-                            }
-                        >
-                            <Meta
-                                title="Service 1"
-                                description="Any Description Related to the service ..."
-                            ></Meta>
-                        </Card>
+                        <Service />
                     </Col>
                 </Row>
             </div>
