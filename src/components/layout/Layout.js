@@ -4,6 +4,7 @@ import Header from "../header/Header";
 import Home from "../../pages/home/Home";
 import Services from "../../pages/services/Services";
 import Values from "../../pages/values/Values";
+import Projects from "../../pages/projects/Projects";
 
 const Layout = () => {
     return (
@@ -13,6 +14,7 @@ const Layout = () => {
                 <Home />
                 <Services />
                 <Values />
+                <Projects />
             </Content>
         </>
     );

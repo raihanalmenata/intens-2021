@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
 import intensLogo from "../../assets/img/intens-logo.png";
-import "./Home.css";
+import "./Home.less";
 
 const Home = () => {
     return (
