@@ -1,8 +1,9 @@
 import React from "react";
-import { Row, Col } from "antd";
+import iconService from "../../assets/img/icon-services.png";
 import Service from "./component/Service";
 
 import "./Services.less";
+import "./responsive.less";
 
 const Services = () => {
     return (
@@ -12,28 +13,13 @@ const Services = () => {
                     <div className="text">
                         <p>Our</p>
                         <h1>Services</h1>
-                        <p>We are here to provide support for customers in <span>digital transformation</span></p>
+                        <p>Our services provided to support your <span>digital transformation</span></p>
                     </div>
-                    <div className="icon">
-
-                    </div>
+                    <img src={iconService} alt="icon-services" />
                 </div>
-                <Row>
-                    <Col span={12}>
-                        <Service />
-                    </Col>
-                    <Col span={12}>
-                        <Service />
-                    </Col>
-                    <Col span={12}>
-                        <Service />
-                    </Col>
-                    <Col span={12}>
-                        <Service />
-                    </Col>
-                </Row>
+                <Service />
             </div>
-        </div >
+        </div>
     )
 }
 
