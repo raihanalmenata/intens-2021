@@ -12,7 +12,6 @@ const Home = () => {
                     </p>
                     <button>Starts here</button>
                 </div>
-
             </div>
         </div>
     )
