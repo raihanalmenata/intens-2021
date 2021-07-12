@@ -1,6 +1,6 @@
 import React from "react";
-import { Row, Col } from "antd";
 import Value from "./component/Value";
+import iconValues from "../../assets/img/icon-values.png";
 
 import "./Values.less";
 
@@ -12,24 +12,11 @@ const Values = () => {
                     <div className="text">
                         <p>Our</p>
                         <h1>Values</h1>
-                        <p>Our commitment and values on our services</p>
+                        <p>Our <span>commitment</span> and <span>values</span> on our services.</p>
                     </div>
-                    <div className="icon">
-
-                    </div>
+                    <img src={iconValues} alt="icon-services" />
                 </div>
-                <Row>
-                    <Col span={8}>
-                        <Value />
-                    </Col>
-                    <Col span={8}>
-                        <Value />
-                    </Col>
-                    <Col span={8}>
-                        <Value />
-                    </Col>
-                   
-                </Row>
+                <Value />
             </div>
         </div >
     )
