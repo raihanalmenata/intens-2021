@@ -5,6 +5,9 @@ import Home from "../../pages/home/Home";
 import Services from "../../pages/services/Services";
 import Values from "../../pages/values/Values";
 import Projects from "../../pages/projects/Projects";
+import Contact from "../../pages/contact/contact";
+import Family from "../../pages/family/Family";
+import Clients from "../../pages/clients/Clients";
 
 const Layout = () => {
     return (
@@ -15,6 +18,9 @@ const Layout = () => {
                 <Services />
                 <Values />
                 <Projects />
+                <Contact />
+                <Family />
+                <Clients />
             </Content>
         </>
     );
