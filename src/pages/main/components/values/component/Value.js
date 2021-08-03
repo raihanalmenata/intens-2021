@@ -8,8 +8,8 @@ const { Meta } = Card;
 const Value = () => {
     return (
         <div className="value">
-            <Row>
-                <Col span={8}>
+            <Row  justify="center">
+                <Col lg={8} sm={12}>
                     <Card
                         className="card-item bg-value"
                         cover={<img src={iconQuestionMark} alt="icon-design" />}
@@ -20,7 +20,7 @@ const Value = () => {
                         ></Meta>
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col lg={8} sm={12}>
                     <Card
                         className="card-item bg-value"
                         cover={<img src={iconQuestionMark} alt="icon-design" />}
@@ -31,7 +31,7 @@ const Value = () => {
                         ></Meta>
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col lg={8} sm={12}>
                     <Card
                         className="card-item bg-value"
                         cover={<img src={iconQuestionMark} alt="icon-design" />}

@@ -3,6 +3,7 @@ import Value from "./component/Value";
 import iconValues from "../../../../assets/img/icon-values.png";
 
 import "./Values.less";
+import "./responsive.less";
 
 const Values = () => {
     return (
