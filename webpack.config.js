@@ -3,18 +3,24 @@ const path = require('path');
 module.exports = {
     mode: 'development',
     entry:'./src/index.js',
-    devtool: 'inline-source-map',
+    // devtool: 'inline-source-map',
+    devtool: false,
     devServer: {
-        // contentBase: '/public',
-        contentBase: path.join(__dirname, 'public'),
+        contentBase: './build',
+        // contentBase: path.join(__dirname, 'build'),
         historyApiFallback: true,
         // historyApiFallback: true,
     },
+    performance: {
+        hints: false,
+        // maxEntrypointSize: 512000,
+        // maxAssetSize: 512000
+    },
     output: {
         // filename: "bundle.js",
-        // path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "build"),
         filename: 'bundle.js',
-        path: path.join(__dirname, 'public'),
+        // path: path.join(__dirname, 'dist'),
         // publicPath: '/',
     },
     module: {
