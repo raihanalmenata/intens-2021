@@ -3,7 +3,6 @@ import { Row, Col, Card } from "antd";
 
 import "./Client.less";
 
-// const { Meta } = Card;
 
 const Client = () => {
     return (

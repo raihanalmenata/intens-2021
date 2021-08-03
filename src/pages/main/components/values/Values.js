@@ -1,6 +1,6 @@
 import React from "react";
 import Value from "./component/Value";
-import iconValues from "../../assets/img/icon-values.png";
+import iconValues from "../../../../assets/img/icon-values.png";
 
 import "./Values.less";
 

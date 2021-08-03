@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Card } from "antd";
-import iconQuestionMark from "../../../assets/img/icon-question-mark.png";
+import iconQuestionMark from "../../../../../assets/img/icon-question-mark.png";
 import "./Value.less";
 
 const { Meta } = Card;

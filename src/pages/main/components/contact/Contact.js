@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Form, Input, Button } from "antd";
-import iconPhone from "../../assets/img/icon-phone.png";
+import iconPhone from "../../../../assets/img/icon-phone.png";
 import "./Contact.less";
 
 const Contact = () => {

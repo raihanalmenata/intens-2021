@@ -1,5 +1,5 @@
 import React from "react";
-import iconFamily from "../../assets/img/icon-family.png";
+import iconFamily from "../../../../assets/img/icon-family.png";
 
 import ListFamily from "./component/ListFamily";
 import "./Family.less";

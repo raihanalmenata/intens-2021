@@ -1,5 +1,5 @@
 import React from "react";
-import iconService from "../../assets/img/icon-services.png";
+import iconService from "../../../../assets/img/icon-services.png";
 import Service from "./component/Service";
 
 import "./Services.less";
