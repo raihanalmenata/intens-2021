@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "antd";
-import iconProject from "../../assets/img/icon-project.png";
+import iconProject from "../../../../assets/img/icon-project.png";
 import Project from "./component/Project";
 import "./Projects.less";
 

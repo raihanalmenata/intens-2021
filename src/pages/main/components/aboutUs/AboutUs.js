@@ -1,6 +1,6 @@
 import React from "react";
 
-import LogoIntents from "../../assets/img/intens-logo.png";
+import LogoIntents from "../../../../assets/img/intens-logo.png";
 import "./AboutUs.less";
 
 const AboutUs = () => {

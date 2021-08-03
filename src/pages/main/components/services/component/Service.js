@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, Col, Row } from "antd";
-import iconDesign from "../../../assets/img/icon-design.png";
-import iconContentDigital from "../../../assets/img/icon-content-digital.png";
-import iconServicesItManaged from "../../../assets/img/icon-services-it-managed.png";
-import iconSolutionIctInfrastructure from "../../../assets/img/icon-solution-ict-infrastructure.png";
+import iconDesign from "../../../../../assets/img/icon-design.png";
+import iconContentDigital from "../../../../../assets/img/icon-content-digital.png";
+import iconServicesItManaged from "../../../../../assets/img/icon-services-it-managed.png";
+import iconSolutionIctInfrastructure from "../../../../../assets/img/icon-solution-ict-infrastructure.png";
 
 import "./service.less";
 

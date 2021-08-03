@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row, Card } from "antd";
-import imgIntentsIhis from "../../../assets/img/image-intens-ihis.png";
-import imgIntensPlato from "../../../assets/img/image-intens-plato.png";
-import imgIntensEvoting from "../../../assets/img/image-e-voting.png";
+import imgIntentsIhis from "../../../../../assets/img/image-intens-ihis.png";
+import imgIntensPlato from "../../../../../assets/img/image-intens-plato.png";
+import imgIntensEvoting from "../../../../../assets/img/image-e-voting.png";
 import "./Project.less";
 
 const { Meta } = Card;
