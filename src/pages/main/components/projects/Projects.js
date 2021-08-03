@@ -15,8 +15,8 @@ const Projects = () => {
                     </div>
                     <img src={iconProject} alt="icon-services" />
                 </div>
-                <Row>
-                    <Col span={8}>
+                <Row justify="center">
+                    <Col lg={8} sm={12}>
                         <div className="number">
                             <h1>400+</h1>
                             <div className="nbr">
@@ -25,7 +25,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col span={8}>
+                    <Col lg={8} sm={12}>
                         <div className="number border">
                             <h1>400+</h1>
                             <div className="nbr">
@@ -34,7 +34,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col span={8}>
+                    <Col lg={8} sm={12}>
                         <div className="number">
                             <h1>400+</h1>
                             <div className="nbr">

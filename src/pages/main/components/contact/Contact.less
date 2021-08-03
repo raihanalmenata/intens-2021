@@ -5,6 +5,7 @@
 
     .bg-contactus {
         background-image: url(../../../../assets/img/background-contactUs.png);
+        background-size: cover;
         width: 100%;
         height: 482px;
         position: relative;
@@ -39,8 +40,9 @@
         p {
             font-size: 18px;
         }
+
         .red {
-            color:#AF022C;
+            color: #AF022C;
         }
     }
 
@@ -63,12 +65,28 @@
         color: white;
     }
 
-    Button:focus{
+    Button:focus {
         background-color: #AF022C;
         color: white;
     }
 
     .content-message {
         padding-bottom: 105px;
+    }
+}
+
+@media screen and (max-width: 1716px) {
+    .contact {
+        img {
+            margin-left: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contact {
+        img {
+            display: none;
+        }
     }
 }

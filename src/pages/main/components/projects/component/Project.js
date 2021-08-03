@@ -10,8 +10,8 @@ const { Meta } = Card;
 const Project = () => {
     return (
         <div className="Project">
-                <Row>
-                    <Col span={8}>
+                <Row justify="center">
+                    <Col lg={8} sm={12}>
                         <Card
                             className="card-item img-ihis"
                             cover={<img src={imgIntentsIhis} alt="img-intens-ihis" />}
@@ -22,7 +22,7 @@ const Project = () => {
                             ></Meta>
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col lg={8} sm={12}>
                         <Card
                             className="card-item bg-value"
                             cover={<img src={imgIntensPlato} alt="img-intens-plato" />}
@@ -33,7 +33,7 @@ const Project = () => {
                             ></Meta>
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col lg={8} sm={12}>
                         <Card
                             className="card-item bg-value"
                             cover={<img src={imgIntensEvoting} alt="img-intens-evoting" />}

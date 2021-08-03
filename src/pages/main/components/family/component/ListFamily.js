@@ -7,8 +7,8 @@ const { Meta } = Card;
 const ListFamily = () => {
     return (
         <div className="ListFamily">
-            <Row>
-                <Col span={8}>
+            <Row justify="center">
+                <Col lg={8} sm={12}>
                     <Card
                         className="card-item bg-family"
                     >
@@ -18,7 +18,7 @@ const ListFamily = () => {
                         ></Meta>
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col lg={8} sm={12}>
                     <Card
                         className="card-item bg-family"
                     >
@@ -28,7 +28,7 @@ const ListFamily = () => {
                         ></Meta>
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col lg={8} sm={12}>
                     <Card
                         className="card-item bg-family"
                     >

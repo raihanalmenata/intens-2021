@@ -23,14 +23,14 @@ const Contact = () => {
 
                 <div className="content-message">
                     <Row>
-                        <Col span={12}>
+                        <Col lg={12} sm={24}>
                             <div className="text-message">
                                 <p>Leave it</p>
                                 <h1>Message</h1>
                                 <p>Feel free to leave us your <span className="red">message</span> and <span className="red">contact us</span>.</p>
                             </div>
                         </Col>
-                        <Col span={12}>
+                        <Col lg={12} sm={24}>
                             <Form>
                                 <Input.TextArea />
                                 <Button>Send</Button>

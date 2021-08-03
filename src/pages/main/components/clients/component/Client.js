@@ -7,8 +7,8 @@ import "./Client.less";
 const Client = () => {
     return (
         <div className="client">
-                <Row>
-                    <Col span={6}>
+                <Row justify="center">
+                    <Col lg={6} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
@@ -18,19 +18,19 @@ const Client = () => {
                         ></Meta> */}
                         </Card>
                     </Col>
-                    <Col span={6}>
+                    <Col lg={6} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
                         </Card>
                     </Col>
-                    <Col span={6}>
+                    <Col lg={6} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
                         </Card>
                     </Col>
-                    <Col span={6}>
+                    <Col lg={6} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
@@ -38,7 +38,7 @@ const Client = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={6}>
+                    <Col lg={6} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
@@ -48,19 +48,19 @@ const Client = () => {
                         ></Meta> */}
                         </Card>
                     </Col>
-                    <Col span={6}>
+                    <Col lg={6} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
                         </Card>
                     </Col>
-                    <Col span={6}>
+                    <Col lg={6} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
                         </Card>
                     </Col>
-                    <Col span={6}>
+                    <Col lg={6} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
@@ -68,7 +68,7 @@ const Client = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={6} offset={6}>
+                    <Col lg={6} sm={12} offset={6}>
                         <Card
                             className="card-item bg-blank"
                         >
@@ -78,7 +78,7 @@ const Client = () => {
                         ></Meta> */}
                         </Card>
                     </Col>
-                    <Col span={12}>
+                    <Col lg={12} sm={12}>
                         <Card
                             className="card-item bg-blank"
                         >
