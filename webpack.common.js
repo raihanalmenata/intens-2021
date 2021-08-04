@@ -11,21 +11,21 @@ module.exports = {
                 test: /\.html$/,
                 use: ["html-loader"],
             },
-            {
-                test: /\.(png|jpe?g|gif|svg)$/i,
-                type: "asset/resource",
-            },
-            {
-                test: /\.(pdf)$/,
-                use: [
-                    {
-                        loader: "file-loader",
-                        options: {
-                            name: "[name].[ext]",
-                        },
-                    },
-                ],
-            },
+            // {
+            //     test: /\.(png|jpe?g|gif|svg)$/i,
+            //     type: "asset/resource",
+            // },
+            // {
+            //     test: /\.(png|jp(e*)g|svg|ttf|otf)$/,
+            //     use: [
+            //         {
+            //             loader: "file-loader",
+            //             options: {
+            //                 name: "[name].[ext]",
+            //             },
+            //         },
+            //     ],
+            // },
             {
                 test: /\.(jsx|js)$/,
                 loader: 'babel-loader',
@@ -46,9 +46,6 @@ module.exports = {
                 use: [
                     {
                         loader: 'url-loader',
-                        options: {
-                            name: "[name].[ext]",
-                          } 
                     }
                 ]
             }
