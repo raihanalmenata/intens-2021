@@ -6,7 +6,7 @@ module.exports = {
     // devtool: 'inline-source-map',
     devtool: false,
     devServer: {
-        contentBase: './build',
+        // contentBase: './build',
         // contentBase: path.join(__dirname, 'build'),
         historyApiFallback: true,
         // historyApiFallback: true,
@@ -18,7 +18,7 @@ module.exports = {
     },
     output: {
         // filename: "bundle.js",
-        path: path.resolve(__dirname, "build"),
+        path: path.resolve(__dirname, "dist"),
         filename: 'bundle.js',
         // path: path.join(__dirname, 'dist'),
         // publicPath: '/',
