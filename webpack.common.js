@@ -46,6 +46,9 @@ module.exports = {
                 use: [
                     {
                         loader: 'url-loader',
+                        options: {
+                            name: "[name].[ext]",
+                          } 
                     }
                 ]
             }

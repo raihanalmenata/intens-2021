@@ -55,10 +55,6 @@ module.exports = merge(common, {
           "less-loader", //1. Turns sass into css
         ],
       },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-      },
     ],
   },
 });
