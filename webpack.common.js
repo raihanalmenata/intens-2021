@@ -12,7 +12,7 @@ module.exports = {
         use: ["html-loader"],
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/i,
+        test: /\.(png|jpe?g|gif|svg)$/,
         type: "asset/resource",
       },
       {
@@ -41,14 +41,14 @@ module.exports = {
             { loader: 'less-loader' }
         ]
     },
-    {
-        test: /\.(png|jp(e*)g|svg|ttf|otf)$/,
-        use: [
-            {
-                loader: 'url-loader',
-            }
-        ]
-    }
+//     {
+//         test: /\.(png|jp(e*)g|svg|ttf|otf)$/,
+//         use: [
+//             {
+//                 loader: 'url-loader',
+//             }
+//         ]
+//     }
     ],
   },
 };
