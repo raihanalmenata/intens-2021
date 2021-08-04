@@ -16,7 +16,7 @@ module.exports = {
                 type: "asset/resource",
             },
             {
-                test: /\.(pdf)$/,
+               test: /\.(png|jp(e*)g|svg|ttf|otf)$/,
                 use: [
                     {
                         loader: "file-loader",
@@ -46,9 +46,6 @@ module.exports = {
                 use: [
                     {
                         loader: 'url-loader',
-                        options: {
-                            name: "[name].[ext]",
-                          } 
                     }
                 ]
             }
