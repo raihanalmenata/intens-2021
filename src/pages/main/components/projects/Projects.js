@@ -5,6 +5,7 @@ import Project from "./component/Project";
 import "./Projects.less";
 
 const Projects = () => {
+
     return (
         <div className="projects">
             <div className="container">

@@ -1,4 +1,4 @@
-const webpack = require("webpack");
+const Webpack = require("webpack");
 
 module.exports = {
     entry: {

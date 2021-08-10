@@ -11,6 +11,7 @@ module.exports = {
         // contentBase: '/public',
         contentBase: path.join(__dirname, 'public'),
         historyApiFallback: true,
+        
         // historyApiFallback: true,
     },
     output: {
