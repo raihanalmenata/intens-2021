@@ -38,7 +38,7 @@ const Service = () => {
                 <Col lg={12} md={12} sm={24}>
                     <Card
                         className="card-item bg-down"
-                        cover={<img src={iconServicesItManaged} alt="icon-services-managed" style={{ paddingTop: 71 }} />}
+                        cover={<img src={iconServicesItManaged} alt="icon-services-managed" />}
                     >
                         <Meta
                             title="Design"
@@ -49,7 +49,7 @@ const Service = () => {
                 <Col lg={12} md={12} sm={24}>
                     <Card
                         className="card-item bg-down"
-                        cover={<img src={iconSolutionIctInfrastructure} alt="icon-solution-ict-infrastructure" style={{ paddingTop: 81 }} />}
+                        cover={<img src={iconSolutionIctInfrastructure} alt="icon-solution-ict-infrastructure" />}
                     >
                         <Meta
                             title="Design"

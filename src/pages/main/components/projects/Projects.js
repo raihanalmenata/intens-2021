@@ -11,7 +11,7 @@ const Projects = () => {
             <div className="container">
                 <div className="title">
                     <div className="text">
-                        <p>We in <span className="title-numbers">Numbers.</span></p>
+                        <p>We in <span className="title-numbers">Numb.</span></p>
                         <p>Our <span className="mark-red">commitment</span> and <span className="mark-red">values</span> on our services.</p>
                     </div>
                     <img src={iconProject} alt="icon-services" />
@@ -47,7 +47,7 @@ const Projects = () => {
                 </Row>
                 <div className="title">
                     <div className="text">
-                        <p><span className="title-numbers">Projects</span>Collections.</p>
+                        <p><span className="title-numbers">Projects</span>Collect.</p>
                         <p>We are here to provide support for customers in digital transformation </p>
                     </div>
                 </div>

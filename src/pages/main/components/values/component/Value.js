@@ -16,7 +16,7 @@ const Value = () => {
                     >
                         <Meta
                             title="Value 1"
-                            description="Any Description Related to the service ..."
+                            description="Any Description Related to the service"
                         ></Meta>
                     </Card>
                 </Col>
@@ -27,7 +27,7 @@ const Value = () => {
                     >
                         <Meta
                             title="Value 2"
-                            description="Any Description Related to the service ..."
+                            description="Any Description Related to the service"
                         ></Meta>
                     </Card>
                 </Col>
@@ -38,7 +38,7 @@ const Value = () => {
                     >
                         <Meta
                             title="Value 3"
-                            description="Any Description Related to the service ..."
+                            description="Any Description Related to the service"
                         ></Meta>
                     </Card>
                 </Col>
