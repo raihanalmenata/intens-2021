@@ -4,7 +4,7 @@ import intensLogo from "../../../assets/img/intens-logo.png";
 const Logo = () => {
     return (
         <div className="logo">
-            <img alt="intens-logo" src={intensLogo} />
+            <a href="/"><img alt="intens-logo" src={intensLogo} /></a>
         </div>
     )
 }
