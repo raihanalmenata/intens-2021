@@ -5,7 +5,7 @@ import "./Contact.less";
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <div className="container">
 
                 <div className="bg-contactus">

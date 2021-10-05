@@ -53,11 +53,11 @@ const Description = () => {
 
                 <div className="demo">
                     <Row>
-                        <Col lg={10} sm={24}>
+                        <Col lg={10}>
                             <h3>Demo</h3>
                             <div className="bg"></div>
                         </Col>
-                        <Col lg={12} sm={24} offset={2}>
+                        <Col lg={12} offset={2}>
                             <h3>Screenshots</h3>
                             <Row>
                                 <Col span={12}>

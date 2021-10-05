@@ -5,7 +5,7 @@ import "./AboutUs.less";
 
 const AboutUs = () => {
     return (
-        <div className="AboutUs">
+        <div className="AboutUs" id="about">
             <div className="container">
                 <div className="title">
                     <p>About Us:</p>
