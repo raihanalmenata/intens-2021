@@ -3,9 +3,7 @@ import Description from "./components/Description";
 
 const Product = () => {
     return (
-      
-        <Description />
-       
+        <Description />  
     )
 }
 

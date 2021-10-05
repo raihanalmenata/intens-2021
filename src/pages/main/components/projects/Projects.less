@@ -6,17 +6,18 @@
 
    .container {
         margin-top: 38px;
-        margin-bottom: 141px;
+        // margin-bottom: 141px;
     }
     .title {
         display: flex;
-        // margin: 100px 20px 30px;
-        padding-top: 145px;
+        margin: 0 20px;
+        // margin-bottom: 50px;
+        padding-top: 50px;
         justify-content: space-between;
 
         .text {
             p {
-                line-height: 15px;
+                // line-height: 15px;
                 font-size: 18px;
             }
 
@@ -51,11 +52,24 @@
 
         .nbr {
             margin: 30px 20px;
+
+            p {
+                font-size: 30px;
+                font-weight: bold;
+            }
         }
     }
 
-    .border {
-        border-left: 1px solid #AF022C;
-        border-right: 1px solid #AF022C;
+    // .border {
+    //     border-left: 1px solid #AF022C;
+    //     border-right: 1px solid #AF022C;
+    // }
+}
+
+@media screen and (max-width: 1440px) {
+    .projects {
+        .title {
+            padding-top: 50px;
+        }
     }
 }

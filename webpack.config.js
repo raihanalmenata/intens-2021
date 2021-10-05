@@ -4,10 +4,14 @@ module.exports = {
     mode: 'development',
     entry:'./src/index.js',
     devtool: 'inline-source-map',
+    stats: {
+        children: true,
+      },
     devServer: {
         // contentBase: '/public',
         contentBase: path.join(__dirname, 'public'),
         historyApiFallback: true,
+        
         // historyApiFallback: true,
     },
     output: {

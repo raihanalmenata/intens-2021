@@ -23,4 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .env
+
 /dist
+
+/yarn.lock
+
